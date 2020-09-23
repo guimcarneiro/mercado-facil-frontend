@@ -1,0 +1,21 @@
+.Layout {
+    height: 100vh;
+
+}
+
+.Layout header {
+    height: 60px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Layout .navbar-container {
+    display: flex;
+    justify-content: center;
+}
+
+.Layout .content {
+    
+}
