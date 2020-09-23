@@ -14,7 +14,7 @@ const Layout = () => {
             <div className={classes["navbar-container"]}>
                 <Navbar/>
             </div>
-            <div className="content">
+            <div className={classes["content"]}>
                 <PublicRoutes />
             </div>
         </div>

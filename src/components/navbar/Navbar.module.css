@@ -1,5 +1,5 @@
 .Navbar {
-    width: 400px;
+    width: 800px;
     height: 40px;
 
     display: flex;
@@ -7,4 +7,27 @@
     align-items: center;
 
     list-style: none;
+}
+
+.Navbar li:first-child a {
+    border-radius: 8px 0 0 8px;
+}
+
+.Navbar li:last-child a {
+    border-radius: 0 8px 8px 0;
+}
+
+.Navbar a {
+    text-decoration: inherit;
+    
+    color: white;
+}
+
+.Navbar li {
+    height: 100%;
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

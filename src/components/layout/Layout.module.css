@@ -12,10 +12,18 @@
 }
 
 .Layout .navbar-container {
+    height: 15%;
+    
     display: flex;
     justify-content: center;
+    align-items: center;
+
 }
 
 .Layout .content {
+    height: 70vh;
+    width: 800px;
     
+    margin: 0 auto;
+
 }

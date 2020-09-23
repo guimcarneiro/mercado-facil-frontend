@@ -12,10 +12,10 @@ import {
 const ApplicationRoutes = () => {
     return (
         <Switch>
-            <Route exact path="/" render={Layout} />
-            <Route exact path="/produtos" render={Layout} />
-            <Route exact path="/lotes" render={Layout} />
-            <Route exact path="/compras" render={Layout} />
+            <Route exact path="/" component={Layout} />
+            <Route exact path="/produtos" component={Layout} />
+            <Route exact path="/lotes" component={Layout} />
+            <Route exact path="/compras" component={Layout} />
             <Route render={Layout} />
         </Switch>
     )
@@ -24,10 +24,10 @@ const ApplicationRoutes = () => {
 const PublicRoutes = () => {
     return (
         <Switch>
-            <Route exact path="/" render={LandingPage} />
-            <Route exact path="/produtos" render={ProdutosPage} />
-            <Route exact path="/lotes" render={LotesPage} />
-            <Route exact path="/compras" render={ComprasPage} />
+            <Route exact path="/" component={LandingPage} />
+            <Route exact path="/produtos" component={ProdutosPage} />
+            <Route exact path="/lotes" component={LotesPage} />
+            <Route exact path="/compras" component={ComprasPage} />
             <Route render={NotFound} />
         </Switch>
     );

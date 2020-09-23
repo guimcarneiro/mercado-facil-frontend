@@ -1,0 +1,32 @@
+.ProdutosTable {
+    width: 100%;
+    border-spacing: 0 6px;
+}
+
+.ProdutosTable th,td {
+    padding: 12px 4px;
+}
+
+.ProdutosTable th {
+    background-color: #73DCFC;
+}
+
+.ProdutosTable th:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.ProdutosTable th:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+.ProdutosTable td {
+    background-color: #c3eefc;
+}
+
+.ProdutosTable td:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.ProdutosTable td:last-child {
+    border-radius: 0 8px 8px 0;
+}
